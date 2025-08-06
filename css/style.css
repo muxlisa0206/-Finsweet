@@ -1,3 +1,4 @@
 .menus_hide{
-    transform: translateX(0%)
+    transform: translateX(1%);
+    transition: 0.3s;
 }   
