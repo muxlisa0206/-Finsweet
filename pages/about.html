@@ -7,9 +7,9 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <header class="fixed top-0 w-full bg-white">
+    <header class="fixed top-0 w-full bg-white z-[1]">
         <nav class="container mx-auto px-[20px] py-[20px] flex justify-between items-center md:gap-[40px]">
-            <a href="../index.html"><img src="/assets/images/home/Logo.svg" alt="logo"></a>
+            <a href="./index.html"><img src="/assets/images/home/Logo.svg" alt="logo"></a>
 
             <button id="menu-toggle" class="text-3xl md:hidden">
                 <img class="w-[60px]" src="/assets/images/home/menu-alt-02-svgrepo-com.svg" alt="">
@@ -17,19 +17,19 @@
 
             <ul class="hidden md:flex gap-[40px] items-center">
                 <li>
-                    <a class="text-[16px] text-[#394149] font-[600] whitespace-nowrap" href="about.html">About Us</a>
+                    <a class="text-[16px] text-[#394149] font-[600] whitespace-nowrap" href="/pages/about.html">About Us</a>
                 </li>
                 <li>
-                    <a class="text-[16px] text-[#394149] font-[600] whitespace-nowrap" href="coreers.html">Coreers</a>
+                    <a class="text-[16px] text-[#394149] font-[600] whitespace-nowrap" href="/pages/coreers.html">Coreers</a>
                 </li>
                 <li>
-                    <a class="text-[16px] text-[#394149] font-[600] whitespace-nowrap" href="service.html">Service</a>
+                    <a class="text-[16px] text-[#394149] font-[600] whitespace-nowrap" href="/pages/service.html">Service</a>
                 </li>
                 <li>
-                    <a class="text-[16px] text-[#394149] font-[600] whitespace-nowrap" href="blog.html">Blog</a>
+                    <a class="text-[16px] text-[#394149] font-[600] whitespace-nowrap" href="/pages/blog.html">Blog</a>
                 </li>
                 <li>
-                    <a class="text-[16px] text-[#394149] font-[600] whitespace-nowrap" href="contact.html">Contact Us</a>
+                    <a class="text-[16px] text-[#394149] font-[600] whitespace-nowrap" href="/pages/contact.html">Contact Us</a>
                 </li>
 
                 <button class="py-[10px] px-[20px] bg-[#FEF3E6] text-[#F58A07] text-[16px] whitespace-nowrap font-[600] rounded-[31px]">Clone project</button>
@@ -43,11 +43,11 @@
                 <button id="menu-close" class="text-2xl">&times;</button>
             </div>
             <nav class="flex flex-col gap-[40px] p-8">
-                <a href="/pages/about.html" class="text-2xl text-gray-700 font-[600] hover:text-blue-600">About Us</a>
-                <a href="/pages/coreers.html" class="text-2xl text-gray-700 font-[600] hover:text-blue-600">Coreers</a>
-                <a href="/pages/service.html" class="text-2xl text-gray-700 font-[600] hover:text-blue-600">Services</a>
-                <a href="/pages/blog.html" class="text-2xl text-gray-700 font-[600] hover:text-blue-600">Blog</a>
-                <a href="/pages/contact.html" class="text-2xl text-gray-700 font-[600] hover:text-blue-600">Contact Us</a>
+                <a href="/about.html" class="text-2xl text-gray-700 font-[600] hover:text-blue-600">About Us</a>
+                <a href="/coreers.html" class="text-2xl text-gray-700 font-[600] hover:text-blue-600">Coreers</a>
+                <a href="/service.html" class="text-2xl text-gray-700 font-[600] hover:text-blue-600">Services</a>
+                <a href="/blog.html" class="text-2xl text-gray-700 font-[600] hover:text-blue-600">Blog</a>
+                <a href="/contact.html" class="text-2xl text-gray-700 font-[600] hover:text-blue-600">Contact Us</a>
             </nav>
         </div>
 
@@ -211,21 +211,21 @@
 
                 <div class="grid grid-cols-1 lg:grid-cols-3 gap-[30px] mt-[50px]">
                     <div class="bg-[#FFFFFF] max-w-[400px] h-[507px] flex flex-col gap-[15px] rounded-[20px] overflow-hidden hover:scale-90 duration-500">
-                        <img class="w-full" src="/assets/images/home/blog1.png" alt="blog">
+                        <img class="w-full h-[230px]" src="/assets/images/home/blog1.png" alt="blog">
                         <h4 class="pl-[20px] text-[24px] font-[500] max-w-[336px]">Why you have to digitalize in 2021</h4>
                         <p class="px-[20px] text-[16px] font-[500] max-w-[336px] text-[#5B5B5B]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit, hendrerit elit et.</p>
                         <a class="pl-[20px] text-[16px] font-[500] text-[#F58A07]" href="/pages/blog.html">Learn more →</a>
                     </div>
 
                     <div class="bg-[#FFFFFF] max-w-[400px] h-[507px] flex flex-col gap-[15px] rounded-[20px] overflow-hidden hover:scale-90 duration-500">
-                        <img class="w-full" src="/assets/images/home/blog2.png" alt="blog">
+                        <img class="w-full h-[230px]" src="/assets/images/home/blog2.png" alt="blog">
                         <h4 class="pl-[20px] text-[24px] font-[500] max-w-[336px]">Our internal process and longerm vision</h4>
                         <p class="px-[20px] text-[16px] font-[500] max-w-[336px] text-[#5B5B5B]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit, hendrerit elit et.</p>
                         <a class="pl-[20px] text-[16px] font-[500] text-[#F58A07]" href="/pages/blog.html">Learn more →</a>
                     </div>
 
                     <div class="bg-[#FFFFFF] max-w-[400px] h-[507px] flex flex-col gap-[15px] rounded-[20px] overflow-hidden hover:scale-90 duration-500">
-                        <img class="w-full" src="/assets/images/home/blog3.png" alt="blog">
+                        <img class="w-full h-[230px]" src="/assets/images/home/blog3.png" alt="blog">
                         <h4 class="pl-[20px] text-[24px] font-[500] max-w-[336px]">Helping the next generation of leaders</h4>
                         <p class="px-[20px] text-[16px] font-[500] max-w-[336px] text-[#5B5B5B]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet eros blandit, hendrerit elit et.</p>
                         <a class="pl-[20px] text-[16px] font-[500] text-[#F58A07]" href="/pages/blog.html">Learn more →</a>
